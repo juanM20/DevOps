@@ -9,7 +9,6 @@ TOKEN = os.getenv("TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
 
-
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 	chat_id = message.from_user.id
@@ -118,4 +117,3 @@ bot.polling()
 
 while True: # Don't let the main Thread end.
 	pass
-
