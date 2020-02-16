@@ -86,7 +86,7 @@ def echo_all(message):
 
 	jsonMessage = message.json
 
-	mensaje_transcrito = "Holaaaa :3..."
+	mensaje_transcrito = "Holaaaa :3\nSabes...\nte amo por ser la chica más increíble del mundo <3"
 	
 	bot.send_message(message.from_user.id, mensaje_transcrito, parse_mode='HTML')
 
